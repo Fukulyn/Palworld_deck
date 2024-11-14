@@ -67,7 +67,8 @@ function App() {
     { id: 55, name: '空渦龍', description:  (<>空渦龍<br /> 屬性:火屬性<br /> 工作適應性:採集</>), image: 'https://patchwiki.biligame.com/images/palworld/5/5a/p4cadb84u8ina4jw9m6fwz8xemircsm.png'},
     { id: 56, name: '聖光騎士', description:  (<>聖光騎士<br /> 屬性:無屬性<br /> 工作適應性:伐木、採礦 </>), image: 'https://patchwiki.biligame.com/images/palworld/a/a4/ei70052cg0m93ragr1udk3jrgcr0som.png'},
     { id: 57, name: '清雀', description:  (<>清雀<br /> 屬性:水屬性<br /> 工作適應性:澆水 </>), image: 'https://patchwiki.biligame.com/images/palworld/c/c1/4xyx9odj7ia1ody0ptwvdwog6eg08tv.png'},
-    { id: 58, name: '阿努比斯', description:  (<>阿努比斯<br /> 屬性:地屬性<br /> 工作適應性:手作、搬運、採礦 </>), image: 'https://patchwiki.biligame.com/images/palworld/c/c7/2qps5jo0lgglea160w5bcg02zj6t1m0.png'}, 
+    { id: 58, name: '阿努比斯', description:  (<>阿努比斯<br /> 屬性:地屬性<br /> 工作適應性:手作、搬運、採礦 </>), image: 'https://patchwiki.biligame.com/images/palworld/c/c7/2qps5jo0lgglea160w5bcg02zj6t1m0.png'},
+    { id: 59, name: '天羽龍', description:  (<>天羽龍<br /> 屬性:龍屬性<br /> 工作適應性:手作、搬運、採礦、採集 </>), image: 'https://patchwiki.biligame.com/images/palworld/2/26/tiw2e7rlve8flzlx3083cwotbup3nrp.png'} 
   ];
   return (
     <div className="app-container">
