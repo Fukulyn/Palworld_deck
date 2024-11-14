@@ -17,10 +17,12 @@
   }
   .character-detail .card-body{
     border: 1px solid #ccc;        /* 設置邊框 */
-    background-color: #f9f9f9;     /* 設置背景顏色 */
+    background-color: #cda8a8;     /* 設置背景顏色 */
     padding: 20px;                 /* 設置內邊距，讓文字不貼邊 */
     border-radius: 8px;            /* 設置圓角邊框 */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 設置陰影效果 */
-    margin: 10px 0;                /* 設置上下間距 */
+    margin: 1px ,0;                /* 設置上下間距 */
   }  
-  
+  .character-detail.card.my-4.p-3{
+    background-color: #a09191;
+  }
