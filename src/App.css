@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #313132;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.custom-title {
+  color: #6b6b6b; /* 設定顏色 */
+  font-size: 3rem; /* 設定字體大小 */
+  font-family: 'Arial', sans-serif; /* 設定字體 */
+  margin-top: 20px; /* 頂部邊距 */
+  margin-bottom: 20px; /* 底部邊距 */
 }

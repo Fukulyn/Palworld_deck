@@ -3,6 +3,7 @@ import CharacterList from './components/CharacterList';
 import CharacterDetail from './components/CharacterDetail';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 function App() {
   const [selectedCharacter, setSelectedCharacter] = useState(null);
@@ -32,7 +33,10 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1 className="text-center my-4">帕魯圖鑑</h1>
+      <h1 
+      className="custom-title text-center my-4">
+        帕魯圖鑑
+      </h1>
       <CharacterList characters={characters} onCharacterClick={setSelectedCharacter} />
       {selectedCharacter && (
         <CharacterDetail character={selectedCharacter} onClose={() => setSelectedCharacter(null)} />
