@@ -1,0 +1,26 @@
+.character-detail {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  text-align: center;
+  }
+  
+  .character-detail img {
+    width: 100%;
+    height: auto;
+  }
+  .character-detail .card-text {
+    white-space: normal;       /* 允許文字自動換行 */
+    overflow-wrap: break-word; /* 必要時斷詞換行 */
+    overflow: hidden;          /* 隱藏超出邊界的文字 */
+    text-overflow: ellipsis;   /* 若需要截斷，使用省略號 */
+  }
+  .character-detail .card-body{
+    border: 1px solid #ccc;        /* 設置邊框 */
+    background-color: #f9f9f9;     /* 設置背景顏色 */
+    padding: 20px;                 /* 設置內邊距，讓文字不貼邊 */
+    border-radius: 8px;            /* 設置圓角邊框 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 設置陰影效果 */
+    margin: 10px 0;                /* 設置上下間距 */
+  }  
+  

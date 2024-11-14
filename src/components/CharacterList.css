@@ -1,0 +1,7 @@
+.character-list {
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
