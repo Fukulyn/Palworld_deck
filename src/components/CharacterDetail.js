@@ -3,16 +3,14 @@ import './CharacterDetail.css';
 
 function CharacterDetail({ character, onClose }) {
   const handleClose = () => {
-    // Scroll to the top of the page when the close button is clicked
+    
     window.scrollTo(0, 0);
-    // Call the onClose function passed from the parent
     onClose();
   };
 
   useEffect(() => {
-    // Scroll to the bottom of the page when the CharacterDetail is displayed
     window.scrollTo(0, document.body.scrollHeight);
-  }, [character]); // Trigger this when the character changes (or when it opens)
+  }, [character]);
 
   return (
     <div className="character-detail card my-4 p-3">

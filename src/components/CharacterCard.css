@@ -17,20 +17,20 @@
   .character-card .card-text {
     color: #333;
     white-space: normal;
-    word-wrap: break-word;  /* 讓長單詞換行 */
+    word-wrap: break-word;  
     overflow-wrap: break-word;
   }
   .character-card .card-body {
-    border: 0px solid #ccc;        /* 設置邊框 */
-    background-color: #cda8a8;     /* 設置背景顏色 */
-    padding: 8px;                 /* 設置內邊距，讓文字不貼邊 */
-    border-radius: 5px;            /* 設置圓角邊框 */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 設置陰影效果 */
+    border: 0px solid #ccc;        
+    background-color: #cda8a8;     
+    padding: 8px;                
+    border-radius: 5px;            
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     margin: 1px 0;
     height: 40px;
     width: 159px; 
     text-align: center;
   }
 .character-card.card.m-2 {
-  background-color: #a09191; /* 設定背景顏色 */
+  background-color: #a09191; 
 }
