@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Palworld_deck/static/css/main.b1d814cf.css",
+    "main.js": "/Palworld_deck/static/js/main.9f1c365a.js",
+    "static/js/453.e3bc5c74.chunk.js": "/Palworld_deck/static/js/453.e3bc5c74.chunk.js",
+    "index.html": "/Palworld_deck/index.html",
+    "main.b1d814cf.css.map": "/Palworld_deck/static/css/main.b1d814cf.css.map",
+    "main.9f1c365a.js.map": "/Palworld_deck/static/js/main.9f1c365a.js.map",
+    "453.e3bc5c74.chunk.js.map": "/Palworld_deck/static/js/453.e3bc5c74.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1d814cf.css",
+    "static/js/main.9f1c365a.js"
+  ]
+}
